@@ -244,6 +244,8 @@ then
 \]
 Note that $B'$ is the transpose of $B$, which we use instead of $B$ so that the dimensions of $A$ and $B$ are compatible. 
 \\In this case even though $A$ is not invertible, we could still find the answer.
+\subsection{Null Space}
+We can also use the command \verb|null(A)| to find the null space of a matrix.  This is the set of solutions to the equation $AX = 0$.
 \subsection{Exercise Three}
 Solve each of the following systems of equations for $x_1, \ldots ,x_n$
 \begin{enumerate}
@@ -321,6 +323,7 @@ Solve each of the following systems of equations for $x_1, \ldots ,x_n$
      \end{verbatim}
   \item
      \begin{verbatim}
+
   > A = [0 1 2; 5 -2 2; 1 1 0];
   > B = [6 8 16];
   > A\B'
